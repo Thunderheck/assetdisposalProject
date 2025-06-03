@@ -1,2 +1,0 @@
-fn(Extension<Arc<std::sync::Mutex<HashMap<std::string::String, User>>>>, Json<LoginRequest>, Extension<Arc<std::sync::Mutex<HashMap<std::string::String, User>>>>) -> impl Future<Output = Result<std::string::String, StatusCode>> {login_handler}
-fn(Extension<Arc<std::sync::Mutex<HashMap<std::string::String, User>>>>, Json<LoginRequest>, Extension<Arc<std::sync::Mutex<HashMap<std::string::String, User>>>>) -> impl Future<Output = Result<std::string::String, StatusCode>> {login_handler}: Handler<_, _>

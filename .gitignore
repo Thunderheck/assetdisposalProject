@@ -1,0 +1,19 @@
+# Cargo
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Build scripts
+/build.rs
+
+# Environment files
+environment.env
+
+# IDEs/editors
+.idea/
+.vscode/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
